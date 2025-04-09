@@ -62,3 +62,8 @@ If exploited correctly, you will obtain a root shell and be able to read the fla
 - This lab is for **educational purposes only**.
 - Do not deploy in production environments.
 - Brute-force attacks can be slow — be patient and learn the process.
+
+## 💀 Stuck?
+
+If you're stuck and can't solve the lab, feel free to contact me! I'll be happy to help. 💬
+
