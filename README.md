@@ -8,7 +8,6 @@ The user `tester` has write access to a script executed by `root` every minute t
 
 Your mission: get a root shell and capture the flag located at `/root/flag.txt`.
 
----
 
 ## 📁 Lab Structure
 
@@ -16,7 +15,6 @@ Your mission: get a root shell and capture the flag located at `/root/flag.txt`.
 - `entrypoint.sh` — Starts necessary services (cron + ssh).
 - `Dockerfile` — Builds the vulnerable Ubuntu 20.04 environment, sets up the user, cron, and the challenge.
 
----
 
 ## 🚀 How to Run the Lab
 
@@ -49,7 +47,6 @@ Your mission: get a root shell and capture the flag located at `/root/flag.txt`.
    - Modify `/opt/cronjob.sh` to run arbitrary commands.
    - Wait for the cronjob to execute and gain elevated privileges.
 
----
 
 ## 🏁 Flag
 
@@ -59,7 +56,6 @@ If exploited correctly, you will obtain a root shell and be able to read the fla
 /root/flag.txt
 ```
 
----
 
 ## 📌 Notes
 
